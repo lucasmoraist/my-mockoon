@@ -78,6 +78,10 @@ dependencies {
     // jwt
     implementation "com.auth0:java-jwt:${jwtVersion}"
 
+    // feign
+    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
+
+
     // validation
     implementation 'org.springframework.boot:spring-boot-starter-validation'
     testImplementation 'org.springframework.boot:spring-boot-starter-validation-test'
