@@ -1,4 +1,4 @@
-package com.lucasmoraist.mockoon.model;
+package com.lucasmoraist.mockoon.domain.model;
 
 import java.util.Map;
 
