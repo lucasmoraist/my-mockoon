@@ -1,3 +1,9 @@
 spring:
+  profiles:
+    active: ${PROFILE_ACTIVE:default}
   application:
     name: mockoon
+
+logging:
+  level:
+    com.lucasmoraist: ${LOG_LEVEL:DEBUG}
